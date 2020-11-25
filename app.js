@@ -43,6 +43,6 @@ app.get("/work",function(req,res){
     res.render("list",{listTitle:"Work",newListItem:workItems});
 })
 
-app.listen(process.env.PORT ||3000,function(){
+app.listen(process.env.PORT,function(){
     console.log("3000");
 });
